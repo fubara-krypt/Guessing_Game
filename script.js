@@ -1,5 +1,5 @@
-// Generate a random number between 1 and 100
-let randomNumber = Math.floor(Math.random() * 100) + 1;
+// Generate a random number between 1 and 10
+let randomNumber = Math.floor(Math.random() * 10) + 1;
 let attempts = 3; // User has three attempts
 
 // DOM Elements
