@@ -18,8 +18,8 @@ submitGuessBtn.addEventListener('click', function() {
     let userGuess = parseInt(userGuessInput.value);
 
     // Check if input is a valid number
-    if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
-        resultMessage.textContent = 'Please enter a valid number between 1 and 100!';
+    if (isNaN(userGuess) || userGuess < 1 || userGuess > 10) {
+        resultMessage.textContent = 'Please enter a valid number between 1 and 10!';
         return;
     }
 
@@ -55,7 +55,7 @@ function endGame() {
 // Restart game function
 restartGameBtn.addEventListener('click', function() {
     attempts = 3;
-    randomNumber = Math.floor(Math.random() * 100) + 1;
+    randomNumber = Math.floor(Math.random() * 10) + 1;
     resultMessage.textContent = '';
     finalResult.textContent = '';
     attemptsRemaining.textContent = `Attempts Remaining: ${attempts}`;
