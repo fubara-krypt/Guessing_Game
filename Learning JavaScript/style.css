@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Color and Typography */
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+
+
+
+/* Header of the webiste */
+
+header {
+    color: white;
+}
+
+
+
+/* Body of the website */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 12px;
+    background-color: #000;
+} 
+
+/* Footer of the website */
